@@ -1,0 +1,16 @@
+*{margin:0; padding:0}
+.Test10 {width: 700px; margin: 20px;}
+.Test10 table {width: 100%;}
+.Test10  table.no {width: 70px;}
+.Test10  table.name {width: 150px;}
+.Test10  table.age {width: 100px;}
+.Test10  table.addr {}
+.Test10  table.done {width: 150px;}
+.Test10  table th, .Test10 table td {
+    height: 60px; text-align: center; vertical-align: middle;
+    border: 1px solid #dcdcdc; font-size: 16px;
+}
+
+.Test10  table.thead tr th {font-weight: 600; border-bottom: 2px solid #000;}
+.Test10  table.tbody tr td {transition: 0.3s; }
+.Test10  table.tbody tr:hover td {background-color: lime; }

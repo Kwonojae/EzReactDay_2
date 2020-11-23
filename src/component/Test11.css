@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+.Test11 {
+  width: 1200px;
+  margin: 30px auto;
+}
+.Test11 ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.Test11 ul li {
+  margin: 10px;
+}
+.Test11 ul li img {
+  width: 250px;
+  height: 300px;
+}
+.Test11 ul li h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+.Test11 ul li p {
+  font-size: 16px;
+}
